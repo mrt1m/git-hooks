@@ -1,4 +1,4 @@
 #!/bin/sh
 git push --no-verify
 ./push.bash | xargs echo
-exit 1;
+exit 0;
