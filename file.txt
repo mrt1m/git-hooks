@@ -1,1 +1,3 @@
+	
+Called after a merge. Because of this, it cannot abort a merge. Can be used to save or apply permissions or other kinds of data that git does not handl
 git config --global core.hooksPath ./git_hooks
