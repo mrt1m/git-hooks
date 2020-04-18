@@ -3,8 +3,13 @@
 #./push.bash | xargs echo
 
 #echo "$local_ref $local_sha $remote_ref $remote_sha";
+remote="$1"
+url="$2"
 
-echo $local_sha > test-1
-echo $remote_sha > test-1
+while read local_ref local_sha remote_ref remote_sha
+do
+  echo $local_sha > test-1
+  echo $remote_sha > test-2
+done
 
 exit 1;
