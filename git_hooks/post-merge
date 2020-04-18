@@ -9,4 +9,4 @@
 
 echo "lol kek ./123"
 
-touch post-merge
+echo "lol kek ./123" > log/post-merge
