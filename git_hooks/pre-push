@@ -1,6 +1,6 @@
 #!/bin/sh
 
 
-git push --no-verify
-./push.bash
-exit 1;
+#git push --no-verify
+#./push.bash
+#exit 1;
