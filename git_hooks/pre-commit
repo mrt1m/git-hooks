@@ -7,4 +7,8 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-echo "lol kek ./123" > "log/-$GIT_REFLOG_ACTION"
+if (git ls-files -o | grep -q "^assets/") || (git diff --name-only HEAD | grep -q "^assets/"); then
+
+  ./test-assets.bash
+  git add assets/*
+fi;
