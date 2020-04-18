@@ -17,8 +17,6 @@ git pull
 
 while read local_ref local_sha remote_ref remote_sha
 do
-  echo $local_sha > test-1
-  echo $remote_sha > test-2
+  echo $local_sha > test-3
+  echo $remote_sha > test-4
 done
-
-exit 1;
