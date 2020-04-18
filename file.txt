@@ -1,3 +1,3 @@
-	
-Called after a merge. Because of this, it cannot abort a merge. Can be used to save or apply permissions or other kinds of data that git does not handl
-git config --global core.hooksPath ./git_hooks
+This hook is invoked with the environment variable GIT_EDITOR=: if the command will not bring up an editor to modify the commit message.
+
+If the merge cannot be carried out automatically, the conflicts need to be resolved and the result committed separately (see git-merge[1]). At that point, this hook will not be executed, but the pre-commit hook will, if it is enabled.
