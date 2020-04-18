@@ -2,6 +2,8 @@
 #git push --no-verify
 #./push.bash | xargs echo
 
-echo "$local_ref $local_sha $remote_ref $remote_sha";
+#echo "$local_ref $local_sha $remote_ref $remote_sha";
+
+echo $local_sha;
 
 exit 1;
