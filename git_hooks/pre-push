@@ -3,3 +3,5 @@
 mkdir test
 
 git push "$@"
+
+test $? -eq 0
