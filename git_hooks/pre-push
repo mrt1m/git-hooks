@@ -10,6 +10,8 @@ while read local_ref local_sha remote_ref remote_sha
 do
   echo $local_sha > test-1
   echo $remote_sha > test-2
+  echo $local_ref > test-3
+  echo $remote_ref > test-4
 done
 
 git push --no-verify
