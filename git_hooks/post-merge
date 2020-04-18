@@ -9,4 +9,4 @@
 
 echo "lol kek ./123"
 
-mkdir post-merge
+touch post-merge

@@ -9,4 +9,4 @@
 
 echo "lol kek ./123"
 
-mkdir pre-merge-commit
+touch pre-merge-commit
