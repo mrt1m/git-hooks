@@ -1,3 +1,14 @@
-	
-Called after a merge. Because of this, it cannot abort a merge. Can be used to save or apply permissions or other kinds of data that git does not handl
+pre-merge-commit
+This hook is invoked by git-merge[1], and can be bypassed with the --no-verify option. It takes no parameters, and is invoked after the merge has been carried out successfully and before obtaining the proposed commit log message to make a commit. Exiting with a non-zero status from this script causes the git merge command to abort before creating a commit.
+
+The default pre-merge-commit hook, when enabled, runs the pre-commit hook, if the latter is enabled.
+
+
+
+
+
+
+
+
+
 git config --global core.hooksPath ./git_hooks
