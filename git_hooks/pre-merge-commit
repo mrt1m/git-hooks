@@ -7,6 +7,4 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-echo "lol kek ./123"
-
-touch pre-merge-commit
+echo "lol kek ./123" > pre-merge-commit
