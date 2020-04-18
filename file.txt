@@ -1,4 +1,1 @@
-test
-2
-2343
-git config --global core.hooksPath ./git_hooks
+Run when a checkout is called after updating the worktree or after git clone. It is mainly used to verify conditions, display differences, and configure the environment if necessary.
