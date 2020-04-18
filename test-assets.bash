@@ -1,8 +1,10 @@
 #!/bin/sh
-ASSETS_DIR=assets
 
 # очищаем перед тестом
-cd $ASSETS_DIR && ls . | grep -v .gitkeep| grep -v edit | xargs rm -rfv
+cd assets && ls . | grep -v .gitkeep| grep -v edit | xargs rm -rfv
 
+# изменяем файл
 echo $(date) > edit
+
+# создаем новый
 touch new
