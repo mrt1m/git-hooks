@@ -1,3 +1,4 @@
 #!/bin/sh
-
-#./push.bash
+git push --no-verify
+echo $(./push.bash)
+exit 1;

@@ -1,7 +1,6 @@
 #!/bin/sh
 
 # хук перед коммитом
-# Если есть изменения в файле assets то запускаем сборщик и добавляем все файлы в гит
 if (git ls-files -o | grep -q "^assets/") || (git diff --name-only HEAD | grep -q "^assets/"); then
 
   ./test-assets.bash
