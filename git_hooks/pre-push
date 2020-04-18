@@ -15,5 +15,6 @@ do
 done
 
 git push --no-verify
-git pull
+
 git branch --set-upstream-to=origin/master
+sleep 10
