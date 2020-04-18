@@ -4,6 +4,10 @@
 
 #echo "$local_ref $local_sha $remote_ref $remote_sha";
 
+
+while read local_ref local_sha remote_ref remote_sha
+do
 echo $local_sha;
+done
 
 exit 1;
