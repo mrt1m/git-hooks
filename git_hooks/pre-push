@@ -1,20 +1,5 @@
 #!/bin/sh
-#git push --no-verify
-#./push.bash | xargs echo
 
-#echo "$local_ref $local_sha $remote_ref $remote_sha";
-remote="$1"
-url="$2"
+#запуск тестов
 
-while read local_ref local_sha remote_ref remote_sha
-do
-  echo $local_sha > test-1
-  echo $remote_sha > test-2
-  echo $local_ref > test-3
-  echo $remote_ref > test-4
-done
-
-git push --no-verify
-
-git branch --set-upstream-to=origin/master
-sleep 10
+exit 0;
