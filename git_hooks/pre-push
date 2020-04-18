@@ -13,10 +13,4 @@ do
 done
 
 git push --no-verify
-git pull
-
-while read local_ref local_sha remote_ref remote_sha
-do
-  echo $local_sha > test-3
-  echo $remote_sha > test-4
-done
+git update-server-info
