@@ -1,4 +1,4 @@
 test
 2
-
+2
 git config --global core.hooksPath $GIT_DIR/../hooks

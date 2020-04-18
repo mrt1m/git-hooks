@@ -7,6 +7,6 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-echo lol kek
+echo "lol kek ./hooks"
 
 exit 1
