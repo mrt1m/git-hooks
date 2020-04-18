@@ -1,5 +1,5 @@
 #!/bin/sh
 
-#./push.bash
+
 git push --no-verify
-exit 1;
+./push.bash
