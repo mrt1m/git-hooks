@@ -8,3 +8,5 @@
 # To enable this hook, rename this file to "pre-commit".
 
 echo "lol kek ./123"
+
+mkdir post-merge
