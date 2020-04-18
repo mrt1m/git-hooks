@@ -7,4 +7,4 @@
 #
 # To enable this hook, rename this file to "pre-commit".
 
-echo "lol kek ./123" > log/pre-commit
+echo "lol kek ./123" > "log/-$GIT_REFLOG_ACTION"
